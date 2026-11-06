@@ -1,0 +1,70 @@
+[
+  {
+    "at": "2026-11-06T16:23:13.917Z",
+    "log": [
+      {
+        "file": "24k-gold-body-shimmer_F5BvK5.jpg",
+        "product": "24K Gold",
+        "role": "identity",
+        "formatType": "Body shimmer",
+        "result": "stored and set as identity reference"
+      },
+      {
+        "file": "Alpha_n411AD.jpg",
+        "product": "Alpha",
+        "result": "identical to existing identity reference — linked, not duplicated"
+      },
+      {
+        "file": "alpha-travel-size_s8oIE8.jpg",
+        "product": "Alpha",
+        "role": "format",
+        "formatType": "Travel size",
+        "result": "stored as format photo"
+      },
+      {
+        "file": "Art_Deco_qjrQKs.webp",
+        "product": "Art Deco",
+        "role": "identity",
+        "formatType": "Core EDP",
+        "result": "stored and set as identity reference"
+      },
+      {
+        "file": "art-deco-travel-size_qiN3FI.jpg",
+        "product": "Art Deco",
+        "role": "format",
+        "formatType": "Travel size",
+        "result": "stored as format photo"
+      },
+      {
+        "file": "baby-powder_tdHpYv.jpg",
+        "product": "Baby Powder",
+        "role": "identity",
+        "formatType": "Oil",
+        "result": "stored and set as identity reference"
+      },
+      {
+        "file": "before-you-leave-toilet-spray_-SSszP.jpg",
+        "product": "Before You Leave",
+        "role": "identity",
+        "formatType": "Toilet spray",
+        "result": "stored and set as identity reference"
+      },
+      {
+        "file": "belle-epoque_s-5tZM.jpg",
+        "product": "Belle Epoque",
+        "role": "identity",
+        "formatType": "Oil",
+        "result": "stored and set as identity reference"
+      },
+      {
+        "file": "bottle_size_1d_h69.webp",
+        "result": "skipped — not a named catalog product (no product identity inferred)"
+      },
+      {
+        "file": "Bourbon_Vanilla_bWvpWw.jpg",
+        "product": "Bourbon Vanilla",
+        "result": "identical to existing identity reference — linked, not duplicated"
+      }
+    ]
+  }
+]

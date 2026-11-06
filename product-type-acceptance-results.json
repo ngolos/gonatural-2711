@@ -1,0 +1,121 @@
+{
+  "results": [
+    {
+      "test": "Baby Powder confirmed as Perfume Oil",
+      "passed": true
+    },
+    {
+      "test": "Before You Leave confirmed as Toilet/Bathroom Spray",
+      "passed": true
+    },
+    {
+      "test": "Belle Epoque confirmed as Perfume Oil",
+      "passed": true
+    },
+    {
+      "test": "French Lace confirmed as Hair Perfume",
+      "passed": true
+    },
+    {
+      "test": "Honeydew Kiss confirmed as Body Shimmer",
+      "passed": true
+    },
+    {
+      "test": "Lilac Blush confirmed as Body Shimmer",
+      "passed": true
+    },
+    {
+      "test": "Memoire confirmed as Hair Perfume",
+      "passed": true
+    },
+    {
+      "test": "Organic Marrow Hair Mask confirmed as Hair Mask/Treatment",
+      "passed": true
+    },
+    {
+      "test": "Pillow Talk confirmed as Hair Perfume",
+      "passed": true
+    },
+    {
+      "test": "Rose All Day confirmed as Body Shimmer",
+      "passed": true
+    },
+    {
+      "test": "Strawberry ShortCake confirmed as Perfume Oil",
+      "passed": true
+    },
+    {
+      "test": "Sucre confirmed as Perfume Oil",
+      "passed": true
+    },
+    {
+      "test": "Vanilla Cream confirmed as Perfume Oil",
+      "passed": true
+    },
+    {
+      "test": "White Musk confirmed as Perfume Oil",
+      "passed": true
+    },
+    {
+      "test": "24K Gold confirmed as Body Shimmer",
+      "passed": true
+    },
+    {
+      "test": "Fairy Dust confirmed as EDP Perfume (Travel Size only)",
+      "passed": true
+    },
+    {
+      "test": "Paradise confirmed as EDP Perfume (Travel Size only)",
+      "passed": true
+    },
+    {
+      "test": "Powder Puff confirmed as Perfumed Body Powder",
+      "passed": true
+    },
+    {
+      "test": "All 18 exact CSV rows, handles, prices and notes preserved as confirmed evidence",
+      "passed": true
+    },
+    {
+      "test": "No corrected product classified as core EDP",
+      "passed": true
+    },
+    {
+      "test": "Creative history, permissions, originals and reviews unchanged",
+      "passed": true
+    },
+    {
+      "test": "Names, identities, scent profiles and original workbook rows unchanged; unrelated products untouched",
+      "passed": true
+    },
+    {
+      "test": "Vanilla Cream oil remains distinct from Vanilla Cr\u00e8me EDP",
+      "passed": true
+    },
+    {
+      "test": "Resolved EDP mappings snapshotted before correction",
+      "passed": true
+    },
+    {
+      "test": "Core EDP filter contains only 23 real core fragrances",
+      "passed": true
+    },
+    {
+      "test": "Oil filter shows all six CSV-confirmed perfume oils",
+      "passed": true
+    },
+    {
+      "test": "Vanilla Cream detail displays Oil, not EDP, with confirmation evidence",
+      "passed": true
+    },
+    {
+      "test": "Correction persists after page reload",
+      "passed": true
+    },
+    {
+      "test": "No browser runtime exceptions",
+      "passed": true
+    }
+  ],
+  "runtimeErrors": []
+}

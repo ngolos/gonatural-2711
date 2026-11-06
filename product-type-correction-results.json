@@ -1,0 +1,166 @@
+{
+  "confirmedProducts": 18,
+  "changedTypes": 2,
+  "corrections": [
+    {
+      "id": "catalog-baby-powder",
+      "name": "Baby Powder",
+      "previous": [
+        "Oil"
+      ],
+      "corrected": "Oil"
+    },
+    {
+      "id": "catalog-before-you-leave",
+      "name": "Before You Leave",
+      "previous": [
+        "Toilet spray"
+      ],
+      "corrected": "Toilet spray"
+    },
+    {
+      "id": "catalog-belle-epoque",
+      "name": "Belle Epoque",
+      "previous": [
+        "Core EDP"
+      ],
+      "corrected": "Oil"
+    },
+    {
+      "id": "catalog-french-lace",
+      "name": "French Lace",
+      "previous": [
+        "Hair perfume"
+      ],
+      "corrected": "Hair perfume"
+    },
+    {
+      "id": "catalog-honeydew-kiss",
+      "name": "Honeydew Kiss",
+      "previous": [
+        "Body shimmer"
+      ],
+      "corrected": "Body shimmer"
+    },
+    {
+      "id": "catalog-lilac-blush",
+      "name": "Lilac Blush",
+      "previous": [
+        "Body shimmer"
+      ],
+      "corrected": "Body shimmer"
+    },
+    {
+      "id": "catalog-memoire",
+      "name": "Memoire",
+      "previous": [
+        "Hair perfume"
+      ],
+      "corrected": "Hair perfume"
+    },
+    {
+      "id": "catalog-organic-marrow-hair-mask",
+      "name": "Organic Marrow Hair Mask",
+      "previous": [
+        "Hair mask"
+      ],
+      "corrected": "Hair mask"
+    },
+    {
+      "id": "catalog-pillow-talk",
+      "name": "Pillow Talk",
+      "previous": [
+        "Hair perfume"
+      ],
+      "corrected": "Hair perfume"
+    },
+    {
+      "id": "catalog-rose-all-day",
+      "name": "Rose All Day",
+      "previous": [
+        "Body shimmer"
+      ],
+      "corrected": "Body shimmer"
+    },
+    {
+      "id": "catalog-strawberry-shortcake",
+      "name": "Strawberry ShortCake",
+      "previous": [
+        "Oil"
+      ],
+      "corrected": "Oil"
+    },
+    {
+      "id": "catalog-sucre",
+      "name": "Sucre",
+      "previous": [
+        "Oil"
+      ],
+      "corrected": "Oil"
+    },
+    {
+      "id": "catalog-vanilla-cream",
+      "name": "Vanilla Cream",
+      "previous": [
+        "Core EDP"
+      ],
+      "corrected": "Oil"
+    },
+    {
+      "id": "catalog-white-musk",
+      "name": "White Musk",
+      "previous": [
+        "Oil"
+      ],
+      "corrected": "Oil"
+    },
+    {
+      "id": "catalog-24k-gold",
+      "name": "24K Gold",
+      "previous": [
+        "Body shimmer"
+      ],
+      "corrected": "Body shimmer"
+    },
+    {
+      "id": "catalog-fairy-dust",
+      "name": "Fairy Dust",
+      "previous": [
+        "Travel size"
+      ],
+      "corrected": "Travel size"
+    },
+    {
+      "id": "catalog-paradise",
+      "name": "Paradise",
+      "previous": [
+        "Travel size"
+      ],
+      "corrected": "Travel size"
+    },
+    {
+      "id": "catalog-powder-puff",
+      "name": "Powder Puff",
+      "previous": [
+        "Body powder"
+      ],
+      "corrected": "Body powder"
+    }
+  ],
+  "realProducts": 41,
+  "historyUnchanged": true,
+  "identitiesFamiliesReferencesUnchanged": true,
+  "formatCounts": {
+    "Accessory": 1,
+    "Balm": 7,
+    "Body powder": 1,
+    "Body shimmer": 4,
+    "Core EDP": 23,
+    "Hair mask": 1,
+    "Hair perfume": 3,
+    "Mini charm": 22,
+    "Oil": 6,
+    "Toilet spray": 1,
+    "Travel size": 23
+  }
+}

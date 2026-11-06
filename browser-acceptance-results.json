@@ -1,0 +1,73 @@
+{
+  "results": [
+    {
+      "test": "Browser sample creator login",
+      "passed": true
+    },
+    {
+      "test": "Product search shows uploaded draft execution, not identity reference",
+      "passed": true
+    },
+    {
+      "test": "Product view and filter state retained during navigation",
+      "passed": true
+    },
+    {
+      "test": "Native modal traps keyboard focus",
+      "passed": true
+    },
+    {
+      "test": "Escape closes modal",
+      "passed": true
+    },
+    {
+      "test": "All eight supplied draft executions render in browser",
+      "passed": true
+    },
+    {
+      "test": "Talya supplied prompt displayed verbatim",
+      "passed": true
+    },
+    {
+      "test": "Keyboard can place normalized feedback pin",
+      "passed": true
+    },
+    {
+      "test": "Carousel navigation and zoom controls",
+      "passed": true
+    },
+    {
+      "test": "Side-by-side version comparison renders history",
+      "passed": true
+    },
+    {
+      "test": "390px products have no page-level horizontal overflow",
+      "passed": true
+    },
+    {
+      "test": "390px review has no page-level horizontal overflow",
+      "passed": true
+    },
+    {
+      "test": "No browser runtime exceptions",
+      "passed": true
+    },
+    {
+      "test": "Reviewer decision controls only on submitted versions",
+      "passed": true
+    },
+    {
+      "test": "Reviewer production route is guarded",
+      "passed": true
+    },
+    {
+      "test": "Email/password sign-in and bearer persistence after reload",
+      "passed": true
+    },
+    {
+      "test": "Email/password sign-out returns to public metadata preview",
+      "passed": true
+    }
+  ],
+  "runtimeErrors": []
+}

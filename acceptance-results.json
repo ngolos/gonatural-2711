@@ -1,0 +1,147 @@
+{
+  "results": [
+    {
+      "test": "102 canonical baseline product records",
+      "passed": true
+    },
+    {
+      "test": "No inherited approvals on supplied executions",
+      "passed": true
+    },
+    {
+      "test": "Reviewer cannot retrieve imported draft contents",
+      "passed": true
+    },
+    {
+      "test": "Unauthenticated original denied",
+      "passed": true
+    },
+    {
+      "test": "Reviewer direct draft original denied",
+      "passed": true
+    },
+    {
+      "test": "Reviewer source original denied",
+      "passed": true
+    },
+    {
+      "test": "Client brief hides creator history",
+      "passed": true
+    },
+    {
+      "test": "Board selection checks product association",
+      "passed": true
+    },
+    {
+      "test": "Missing actual identity remains explicit",
+      "passed": true
+    },
+    {
+      "test": "Prompt freezes exact product snapshot",
+      "passed": true
+    },
+    {
+      "test": "Three ordered original slides retained",
+      "passed": true
+    },
+    {
+      "test": "Pin, reply and resolution persist",
+      "passed": true
+    },
+    {
+      "test": "Exact image version approved",
+      "passed": true
+    },
+    {
+      "test": "Downloaded original checksum 3229c2e4-d88c-4f7a-9950-63e947f9a5a0",
+      "passed": true
+    },
+    {
+      "test": "Downloaded original checksum 103e0982-9ce3-485f-82e2-939b49cbc605",
+      "passed": true
+    },
+    {
+      "test": "Downloaded original checksum 1594479b-004c-4968-b228-c54016d5e571",
+      "passed": true
+    },
+    {
+      "test": "New draft does not replace approved release",
+      "passed": true
+    },
+    {
+      "test": "Old pins not moved to revision",
+      "passed": true
+    },
+    {
+      "test": "Incomplete carousel cannot be submitted",
+      "passed": true
+    },
+    {
+      "test": "Change request remains exact-version history",
+      "passed": true
+    },
+    {
+      "test": "Scoped intake confirmation leaves conflict open",
+      "passed": true
+    },
+    {
+      "test": "Execution choice cannot clear disputed-copy approval gate",
+      "passed": true
+    },
+    {
+      "test": "Copy approval is independent from image changes requested",
+      "passed": true
+    },
+    {
+      "test": "Package readiness checks exact component approvals",
+      "passed": true
+    },
+    {
+      "test": "Unexpired staging upload cannot overwrite stored original",
+      "passed": true
+    },
+    {
+      "test": "Replacement supersedes former approval",
+      "passed": true
+    },
+    {
+      "test": "Old package does not follow newest asset silently",
+      "passed": true
+    },
+    {
+      "test": "Revocation removes approved release and preserves history",
+      "passed": true
+    },
+    {
+      "test": "Both journeys persisted across fresh sessions",
+      "passed": true
+    },
+    {
+      "test": "CSV duplicate preview",
+      "passed": true
+    },
+    {
+      "test": "Stable CSV ID updates instead of duplicating",
+      "passed": true
+    },
+    {
+      "test": "Relational backup records retained",
+      "passed": true
+    },
+    {
+      "test": "Full ZIP contains originals and manifest",
+      "passed": true
+    },
+    {
+      "test": "Reviewer full backup denied",
+      "passed": true
+    }
+  ],
+  "journeys": {
+    "image": "5bd7c10b-90fe-4697-a7bb-3776bb48adb6",
+    "copy": "eb188641-c4a1-435f-80c3-07ae2dce64fe",
+    "package": "f3dc87de-6f40-42df-8dcf-52f855841bb2"
+  },
+  "backupEntries": 44,
+  "notice": "All acceptance decisions are demonstration data; supplied draft executions were not approved."
+}

@@ -1,0 +1,24 @@
+{
+  "added": 33,
+  "updated": 8,
+  "realProducts": 41,
+  "formatAssociations": 92,
+  "historyUnchanged": true,
+  "existingBriefsAndReferencesUnchanged": true,
+  "samplesRetainedForHistory": 95,
+  "bundlesExcluded": true,
+  "formatCounts": {
+    "Accessory": 1,
+    "Balm": 7,
+    "Body powder": 1,
+    "Body shimmer": 4,
+    "Core EDP": 25,
+    "Hair mask": 1,
+    "Hair perfume": 3,
+    "Mini charm": 22,
+    "Oil": 4,
+    "Toilet spray": 1,
+    "Travel size": 23
+  },
+  "aliasReconciled": "Vanilla Creme workbook → existing Vanilla Crème product-2; Vanilla Cream remains separate"
+}

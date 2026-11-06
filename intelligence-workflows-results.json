@@ -1,0 +1,177 @@
+{
+ "audits": {
+  "audited": 29,
+  "complete": 29,
+  "flagged": 10,
+  "flaggedList": [
+   {
+    "productId": "catalog-juliette",
+    "reportId": "cfad8bfc-4ffd-49f9-b5d3-205c85b908fd",
+    "hardConflicts": 0,
+    "uncertainReads": 4,
+    "sourceConflict": true
+   },
+   {
+    "productId": "catalog-muhra",
+    "reportId": "6577ce22-7618-49b1-824a-3b4235259c86",
+    "hardConflicts": 0,
+    "uncertainReads": 4,
+    "sourceConflict": true
+   },
+   {
+    "productId": "catalog-summer-haze",
+    "reportId": "e0ee57b0-ee36-4f7c-834e-c25545b66b5a",
+    "hardConflicts": 0,
+    "uncertainReads": 5,
+    "sourceConflict": true
+   },
+   {
+    "productId": "catalog-velvet-musk",
+    "reportId": "ee40120c-3794-464c-861c-063db48971b0",
+    "hardConflicts": 1,
+    "uncertainReads": 5,
+    "sourceConflict": false
+   },
+   {
+    "productId": "catalog-legacy",
+    "reportId": "664e673d-511d-41de-9a65-572865c2b149",
+    "hardConflicts": 1,
+    "uncertainReads": 4,
+    "sourceConflict": false
+   },
+   {
+    "productId": "catalog-alpha",
+    "reportId": "aa3a7683-7b2e-4710-b280-35545964d675",
+    "hardConflicts": 1,
+    "uncertainReads": 4,
+    "sourceConflict": false
+   },
+   {
+    "productId": "product-1",
+    "reportId": "26aed823-3361-48b1-971f-89c661e8cb51",
+    "hardConflicts": 1,
+    "uncertainReads": 4,
+    "sourceConflict": false
+   },
+   {
+    "productId": "product-6",
+    "reportId": "91e606b7-8e1d-4565-a860-4affb4a579b9",
+    "hardConflicts": 1,
+    "uncertainReads": 5,
+    "sourceConflict": false
+   },
+   {
+    "productId": "catalog-baby-powder",
+    "reportId": "488ca979-168f-40fd-97f1-0f9539a8e369",
+    "hardConflicts": 1,
+    "uncertainReads": 5,
+    "sourceConflict": false
+   },
+   {
+    "productId": "catalog-vanilla-cream",
+    "reportId": "fcd0703d-a48b-434c-b53c-5c735d67e6b0",
+    "hardConflicts": 2,
+    "uncertainReads": 4,
+    "sourceConflict": false
+   }
+  ],
+  "knownConflictsShownUnresolved": [
+   "catalog-juliette",
+   "Muhra",
+   "Summer Haze"
+  ],
+  "note": "No single score; every report saved with timestamp in product history."
+ },
+ "territories": {
+  "product-6": {
+   "selected": "territory-gen-40170e58-11d1-4ec4-b08a-c9bc5316e083 (Honeycomb Hour)",
+   "rejected": [
+    "Second Skin, Sweetened",
+    "Small Gold Ritual",
+    "Edible, On Purpose"
+   ]
+  },
+  "catalog-white-musk": {
+   "tier": "thin",
+   "evidenceLimits": "states thin oil tier; no invented scene/packaging detail"
+  }
+ },
+ "asset": {
+  "jobId": "7c80de52-bd93-49af-b076-8d98b6a87f8b",
+  "fileId": "02f16286-a29d-4479-a911-1c25621d6005",
+  "versionId": "f85a5448-0e53-4ee3-92e5-81ec89391c5c",
+  "deliverableId": "742c60a6-cf99-4ed0-9f33-0a0fdbdc0055",
+  "status": "In review",
+  "model": "fal-ai/nano-banana/edit",
+  "costUsd": 0.0398,
+  "reference": "live Shopify Caramel_Latte.jpg",
+  "selfCheck": "Identity/text accuracy FAILS: label rendered as \"PRAGRANCE\", cap shape changed. Not approved.",
+  "failedEarlierJob": "8de4a36e-afdc-4b3f-a744-ac4117618d67 (fal 401, kept)"
+ },
+ "fixes": [
+  "FAL_KEY .env value contained a pasted \"FAL_KEY=\" prefix -> 401; value corrected and falKey() normalizes it",
+  "ai SDK pinned to v6 (image parts rejected by v5/7 gateway path)",
+  "prompt capped at 110 words",
+  "SHOP_ORIGIN uses www (apex TLS cert expired Aug 10 2025)"
+ ],
+ "acceptance": {
+  "product-type": "29/29 pass",
+  "catalog": "41/41 pass",
+  "note": "history checks now allow additions but require every prior record unchanged; referenceId may differ only for the 5 products whose identity image the user imported (24K Gold, Art Deco, Baby Powder, Before You Leave, Belle Epoque)"
+ },
+ "checks": "tsc clean (pre-existing TS2550 only), lint 0 errors, vite build ok",
+ "moodboards_v2": {
+  "skill": "runable-agent-skill.md stored as version 2 (a5dd6e9046d9); version 1 retained",
+  "records": {
+   "candidates": "territory_details (unchanged)",
+   "board_shortlist": "territory_shortlists (append-only; newest per batch is current)",
+   "production_selection": "territory_details.status = selected"
+  },
+  "example_prompts": [
+   "prompt-board-caramel-source-v1",
+   "prompt-board-tipsy-source-v3",
+   "prompt-board-four-vanillas-v1 (range comparison, imported this turn)"
+  ],
+  "shortlists_recommended": {
+   "catalog-alpha": {
+    "board": [
+     "Cold Friction \u2014 Industrial Leather",
+     "Armour of Charisma \u2014 Confidence as Second Skin",
+     "The Smoking Room \u2014 A Private Atmosphere"
+    ],
+    "reserve": "Classic Meets Modern \u2014 Luminous Spice"
+   },
+   "product-6": {
+    "board": [
+     "Honeycomb Hour",
+     "Second Skin, Sweetened",
+     "Small Gold Ritual"
+    ],
+    "reserve": "Edible, On Purpose"
+   },
+   "catalog-white-musk": {
+    "board": [
+     "Green Hour",
+     "Second Skin",
+     "The Irresistible Verdict"
+    ],
+    "reserve": "Last Gesture"
+   }
+  },
+  "board_prompt_dry_run": {
+   "product": "product-6",
+   "words": 706,
+   "condensed_words": 197,
+   "fal_called": false
+  },
+  "fal_images_generated_this_turn": 0,
+  "checks": {
+   "product_type_acceptance": "29/29",
+   "catalog_acceptance": "41/41",
+   "lint": "pass",
+   "tsc": "pass",
+   "build": "pass",
+   "swap_permission": "client FORBIDDEN, creator OK"
+  }
+ }
+}

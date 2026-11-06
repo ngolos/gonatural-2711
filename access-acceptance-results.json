@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "test": "Restricted overview returns only granted product",
+      "passed": true
+    },
+    {
+      "test": "Campaign access alone cannot expose ungranted product work",
+      "passed": true
+    },
+    {
+      "test": "Full comparative vanilla board requires all depicted product grants",
+      "passed": true
+    },
+    {
+      "test": "Restricted board metadata is filtered",
+      "passed": true
+    },
+    {
+      "test": "Packages and campaign product associations are scoped",
+      "passed": true
+    },
+    {
+      "test": "Storage object itself denies anonymous reads",
+      "passed": true
+    },
+    {
+      "test": "Authorized board original is available",
+      "passed": true
+    },
+    {
+      "test": "Download rechecks revoked product grant without sign-out",
+      "passed": true
+    }
+  ],
+  "notice": "Restricted test membership retained; temporary Caramel grant revoked."
+}

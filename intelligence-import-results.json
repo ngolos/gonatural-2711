@@ -1,0 +1,290 @@
+{
+  "importedAt": "2026-11-06T16:22:21.642Z",
+  "sourceVersion": "briefs:61b494026a6e tags:1ef4dfacba3d",
+  "docs": [
+    "runable-agent-skill.md: stored version 1 (0b1572433348)",
+    "fragrance-briefs.md: stored version 1 (61b494026a6e)",
+    "product-motivation-tags.csv: stored version 1 (1ef4dfacba3d)",
+    "creative-territory-method.md: stored version 1 (66f57853a9ec)",
+    "alphaprompt-system.md: stored version 1 (32884c96241e)",
+    "quiz-profile-map.csv: stored version 1 (099f6355cc2c)",
+    "runable-build-task.md: stored version 1 (ef8c5ff0db22)"
+  ],
+  "profiles": [
+    {
+      "product": "Juliette",
+      "productId": "catalog-juliette",
+      "name": "Juliette",
+      "handle": "juliette",
+      "section": "Juliette",
+      "tier": "full",
+      "conflict": true
+    },
+    {
+      "product": "Nayomi",
+      "productId": "catalog-nayomi",
+      "name": "Nayomi",
+      "handle": "nayomi",
+      "section": "Nayomi",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Talya",
+      "productId": "product-talya",
+      "name": "Talya",
+      "handle": "talya",
+      "section": "Talya",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Muhra",
+      "productId": "catalog-muhra",
+      "name": "Muhra",
+      "handle": "muhra",
+      "section": "Muhra",
+      "tier": "full",
+      "conflict": true
+    },
+    {
+      "product": "Carmina",
+      "productId": "catalog-carmina",
+      "name": "Carmina",
+      "handle": "carmina",
+      "section": "Carmina",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Summer Haze",
+      "productId": "catalog-summer-haze",
+      "name": "Summer Haze",
+      "handle": "summer-haze",
+      "section": "Summer Haze",
+      "tier": "full",
+      "conflict": true
+    },
+    {
+      "product": "Velvet Musk",
+      "productId": "catalog-velvet-musk",
+      "name": "Velvet Musk",
+      "handle": "velvet-musk",
+      "section": "Velvet Musk",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Tipsy",
+      "productId": "product-5",
+      "name": "Tipsy",
+      "handle": "tipsy",
+      "section": "Tipsy",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Noir",
+      "productId": "catalog-noir",
+      "name": "Noir",
+      "handle": "noir",
+      "section": "Noir",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Legacy",
+      "productId": "catalog-legacy",
+      "name": "Legacy",
+      "handle": "legacy",
+      "section": "Legacy",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Egyptian Oud",
+      "productId": "catalog-egyptian-oud",
+      "name": "Egyptian Oud",
+      "handle": "egyptian-oud",
+      "section": "Egyptian Oud",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Art Deco",
+      "productId": "product-art-deco",
+      "name": "Art Deco",
+      "handle": "art-deco",
+      "section": "Art Deco",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Signature",
+      "productId": "catalog-signature",
+      "name": "Signature",
+      "handle": "signature",
+      "section": "Signature",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Alpha",
+      "productId": "catalog-alpha",
+      "name": "Alpha",
+      "handle": "alpha",
+      "section": "Alpha",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Madagascar Vanilla",
+      "productId": "product-1",
+      "name": "Madagascar Vanilla",
+      "handle": "madagascar-vanilla",
+      "section": "Madagascar Vanilla",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Bourbon Vanilla",
+      "productId": "product-4",
+      "name": "Bourbon Vanilla",
+      "handle": "bourbon-vanilla",
+      "section": "Bourbon Vanilla",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Vanilla Creme",
+      "productId": "product-2",
+      "name": "Vanilla Crème",
+      "handle": "vanilla-creme",
+      "section": "Vanilla Crème",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Vanilla Era",
+      "productId": "product-3",
+      "name": "Vanilla Era",
+      "handle": "vanilla-era",
+      "section": "Vanilla Era",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Golden Aura",
+      "productId": "catalog-golden-aura",
+      "name": "Golden Aura",
+      "handle": "golden-aura",
+      "section": "Golden Aura",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Caribbean Coconut",
+      "productId": "catalog-caribbean-coconut",
+      "name": "Caribbean Coconut",
+      "handle": "caribbean-coconut",
+      "section": "Caribbean Coconut",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Caramel Latte",
+      "productId": "product-6",
+      "name": "Caramel Latte",
+      "handle": "caramel-latte",
+      "section": "Caramel Latte",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Creme Brulee",
+      "productId": "catalog-creme-brulee",
+      "name": "Creme Brulee",
+      "handle": "creme-brulee",
+      "section": "Crème Brûlée",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Salted Caramel",
+      "productId": "catalog-salted-caramel",
+      "name": "Salted Caramel",
+      "handle": "salted-caramel",
+      "section": "Salted Caramel",
+      "tier": "full",
+      "conflict": false
+    },
+    {
+      "product": "Baby Powder",
+      "productId": "catalog-baby-powder",
+      "name": "Baby Powder",
+      "handle": "baby-powder",
+      "section": "Baby Powder (oil)",
+      "tier": "thin",
+      "conflict": false
+    },
+    {
+      "product": "White Musk",
+      "productId": "catalog-white-musk",
+      "name": "White Musk",
+      "handle": "white-musk",
+      "section": "White Musk (oil)",
+      "tier": "thin",
+      "conflict": false
+    },
+    {
+      "product": "Vanilla Cream",
+      "productId": "catalog-vanilla-cream",
+      "name": "Vanilla Cream",
+      "handle": "vanilla-cream",
+      "section": "Vanilla Cream (oil)",
+      "tier": "thin",
+      "conflict": false
+    },
+    {
+      "product": "Sucre",
+      "productId": "catalog-sucre",
+      "name": "Sucre",
+      "handle": "sucre",
+      "section": "Sucré (oil)",
+      "tier": "thin",
+      "conflict": false
+    },
+    {
+      "product": "Strawberry ShortCake",
+      "productId": "catalog-strawberry-shortcake",
+      "name": "Strawberry ShortCake",
+      "handle": "strawberry-shortcake",
+      "section": "Strawberry ShortCake (oil)",
+      "tier": "thin",
+      "conflict": false
+    },
+    {
+      "product": "Belle Epoque",
+      "productId": "catalog-belle-epoque",
+      "name": "Belle Epoque",
+      "handle": "belle-epoque",
+      "section": "Belle Époque (oil)",
+      "tier": "thin",
+      "conflict": false
+    }
+  ],
+  "outOfScope": [
+    "Before You Leave",
+    "French Lace",
+    "Honeydew Kiss",
+    "Lilac Blush",
+    "Memoire",
+    "Organic Marrow Hair Mask",
+    "Pillow Talk",
+    "Rose All Day",
+    "24K Gold",
+    "Fairy Dust",
+    "Paradise",
+    "Powder Puff"
+  ]
+}

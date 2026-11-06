@@ -1,0 +1,169 @@
+{
+  "results": [
+    {
+      "test": "All 41 named workbook entries represented once",
+      "passed": true
+    },
+    {
+      "test": "Core EDP source-backed count: 23",
+      "passed": true
+    },
+    {
+      "test": "Travel size source-backed count: 23",
+      "passed": true
+    },
+    {
+      "test": "Mini charm source-backed count: 22",
+      "passed": true
+    },
+    {
+      "test": "Balm source-backed count: 7",
+      "passed": true
+    },
+    {
+      "test": "Oil source-backed count: 6",
+      "passed": true
+    },
+    {
+      "test": "Hair perfume source-backed count: 3",
+      "passed": true
+    },
+    {
+      "test": "Body shimmer source-backed count: 4",
+      "passed": true
+    },
+    {
+      "test": "Accessory source-backed count: 1",
+      "passed": true
+    },
+    {
+      "test": "Body powder source-backed count: 1",
+      "passed": true
+    },
+    {
+      "test": "Hair mask source-backed count: 1",
+      "passed": true
+    },
+    {
+      "test": "Toilet spray source-backed count: 1",
+      "passed": true
+    },
+    {
+      "test": "No bundle or duo associations",
+      "passed": true
+    },
+    {
+      "test": "Original family classifications and complete raw workbook evidence retained",
+      "passed": true
+    },
+    {
+      "test": "Caramel Latte hierarchy: EDP + Travel size + Mini charm",
+      "passed": true
+    },
+    {
+      "test": "Caramel Latte supplied EDP variants retained",
+      "passed": true
+    },
+    {
+      "test": "Nayomi 5ml not invented as Travel size",
+      "passed": true
+    },
+    {
+      "test": "Signature 5ml not invented as Travel size",
+      "passed": true
+    },
+    {
+      "test": "Vanilla Cr\u00e8me original identity preserved; Vanilla Cream separate",
+      "passed": true
+    },
+    {
+      "test": "All pre-import creative links, versions, prompts, comments, decisions and conflicts unchanged",
+      "passed": true
+    },
+    {
+      "test": "Original product briefs, current reference uploads and fictional history records retained",
+      "passed": true
+    },
+    {
+      "test": "Full backup includes format associations and catalog evidence",
+      "passed": true
+    },
+    {
+      "test": "Imported executions remain eight unapproved drafts",
+      "passed": true
+    },
+    {
+      "test": "Public preview reports real catalog only",
+      "passed": true
+    },
+    {
+      "test": "Full-scope demo reviewer sees complete catalog",
+      "passed": true
+    },
+    {
+      "test": "Browser shows all 41 real entries by default, zero fictional cards",
+      "passed": true
+    },
+    {
+      "test": "All current identity references and supplied execution previews load in real portfolio",
+      "passed": true
+    },
+    {
+      "test": "Every product-type filter matches reconciled source counts",
+      "passed": true
+    },
+    {
+      "test": "Family and type filters combine: 11 gourmand travel fragrances",
+      "passed": true
+    },
+    {
+      "test": "Open fragrance shows its three available format children",
+      "passed": true
+    },
+    {
+      "test": "Combined filter/search state retained after opening fragrance",
+      "passed": true
+    },
+    {
+      "test": "Accent-insensitive search finds existing Vanilla Cr\u00e8me identity",
+      "passed": true
+    },
+    {
+      "test": "Browser sort Scent family",
+      "passed": true
+    },
+    {
+      "test": "Browser sort Product type",
+      "passed": true
+    },
+    {
+      "test": "Browser sort Name Z\u2013A",
+      "passed": true
+    },
+    {
+      "test": "Browser sort Name A\u2013Z",
+      "passed": true
+    },
+    {
+      "test": "Optional pagination works without hiding catalog by default",
+      "passed": true
+    },
+    {
+      "test": "List view covers all 41 real identities and multiple types",
+      "passed": true
+    },
+    {
+      "test": "390px full catalog has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "test": "390px hierarchy has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "test": "No browser runtime exceptions",
+      "passed": true
+    }
+  ],
+  "runtimeErrors": []
+}
