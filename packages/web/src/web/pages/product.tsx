@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import {
   Plus,
   ArrowUpRight,
-  FileText,
   ShieldAlert,
   CheckCircle2,
   Edit3,
@@ -25,7 +24,6 @@ import {
 import { CreateBrief } from "./libraries";
 import {
   AuditPanel,
-  FragranceProfilePanel,
   GeneratedDirections,
   WorkflowActions,
 } from "../components/intelligence-ui";
@@ -126,40 +124,11 @@ export default function ProductDetail({
         <section className="catalog-formats" aria-label="Available product types">
           <div className="section-title">
             <h2>Available product types</h2>
-            <span>ONE FRAGRANCE / MULTIPLE FORMATS</span>
           </div>
-          <p className="muted small">
-            Availability comes from your catalog sources. Sizes are shown only where explicitly
-            supplied. Bundles are excluded.
-          </p>
           <div className="catalog-format-grid">
             {p.formats.map((f) => (
               <article key={f.id} className="catalog-format-card">
                 <h3>{f.type}</h3>
-                {f.details.length ? (
-                  f.details.map((d, i) => (
-                    <div className="catalog-listing" key={i}>
-                      <strong>{d.title}</strong>
-                      <p>
-                        {d.size ||
-                          (d.variants.length
-                            ? (f.type === "Mini charm" ? "Scent: " : "Listed variants: ") +
-                              d.variants.join(" · ")
-                            : "Size not specified in supplied listing")}
-                      </p>
-                      <small>{d.handle}</small>
-                    </div>
-                  ))
-                ) : (
-                  <p>Available in workbook; listing details not supplied.</p>
-                )}
-                {f.reviewNote && <p className="catalog-format-note">{f.reviewNote}</p>}
-                <details>
-                  <summary>Source evidence</summary>
-                  {f.provenance.map((source, i) => (
-                    <p key={i}>{source}</p>
-                  ))}
-                </details>
               </article>
             ))}
           </div>
@@ -198,25 +167,8 @@ export default function ProductDetail({
                     <dd>{p.catalog.baseNotes}</dd>
                   </div>
                 </dl>
-                <p className="muted small">
-                  {p.catalog.notesSource} · Catalog Range workbook
-                  {p.catalog.labelNumber ? " · Label #" + p.catalog.labelNumber : ""}. Label numbers
-                  are not unique product IDs.
-                </p>
-                {!!p.catalog.reviewNotes.length && (
-                  <details className="catalog-review">
-                    <summary>
-                      {p.catalog.reviewNotes.length} source review note
-                      {p.catalog.reviewNotes.length > 1 ? "s" : ""}
-                    </summary>
-                    {p.catalog.reviewNotes.map((note, i) => (
-                      <p key={i}>{note}</p>
-                    ))}
-                  </details>
-                )}
               </section>
             )}
-            <FragranceProfilePanel productId={p.id} />
             <section className="source-panel">
               <div className="section-title">
                 <h2>The product foundation</h2>
@@ -226,16 +178,6 @@ export default function ProductDetail({
                     Edit / paste brief
                   </button>
                 )}
-              </div>
-              <div className="source-provenance">
-                <FileText size={16} />
-                <div>
-                  {p.source}
-                  <small>
-                    Edited / imported {new Date(p.updatedAt).toLocaleString()} · Marketing language
-                    is attributed, not measured performance.
-                  </small>
-                </div>
               </div>
               <div className="markdown">
                 <Markdown>{p.brief}</Markdown>
@@ -338,7 +280,7 @@ export default function ProductDetail({
             </section>
           </div>
           <aside className="product-side">
-            <AuditPanel productId={p.id} creator={creator} openId={reportId} />
+            {false && <AuditPanel productId={p.id} creator={creator} openId={reportId} />}
             <section className="reference-panel">
               <div className="section-title">
                 <h3>Product identity reference</h3>
